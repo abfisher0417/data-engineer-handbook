@@ -145,6 +145,7 @@ AND l.browser_type = t.browser_type;
 
 - A DDL for `hosts_cumulated` table
   - a `host_activity_datelist` which logs to see which dates each host is experiencing any activity
+```
 CREATE TABLE hosts_cumulative (
   host TEXT,
   date DATE,
